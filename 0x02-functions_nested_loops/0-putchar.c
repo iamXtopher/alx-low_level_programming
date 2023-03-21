@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main - Entry point
- *
+ * main - print _putchar
+ * is written by Christopher
  * Return: Always 0 (Success)
  */
 int main(void)
