@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * set_char_pointer - sets the value of a pointer to a char
- * @p: pointer to a char
- * @c: char value to set
+ * set_string - Sets the value of a pointer to a char.
  *
- * Return: void
+ * @s: Pointer to a pointer to a char.
+ * @to: Pointer to a char.
+ *
+ * Return: Nothing.
  */
 
-void set_char_pointer(char *p, char c)
+void set_string(char **s, char *to)
 {
-	*p = c;
+	*s = to;
 }
